@@ -14,6 +14,13 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/icon",
+                    "menuIcon": true,
+                    "name": "IAMGE_ICON",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
                     "file": "images/number0",
                     "name": "IMAGE_NUMBER_0",
                     "targetPlatforms": null,
