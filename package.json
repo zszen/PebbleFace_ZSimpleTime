@@ -1,0 +1,90 @@
+{
+    "author": "ZStudio",
+    "dependencies": {},
+    "keywords": [],
+    "name": "zst",
+    "pebble": {
+        "capabilities": [
+            ""
+        ],
+        "displayName": "ZSimpleTime",
+        "enableMultiJS": true,
+        "messageKeys": [],
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/number0",
+                    "name": "IMAGE_NUMBER_0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number9",
+                    "name": "IMAGE_NUMBER_9",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number8",
+                    "name": "IMAGE_NUMBER_8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number7",
+                    "name": "IMAGE_NUMBER_7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number6",
+                    "name": "IMAGE_NUMBER_6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number5",
+                    "name": "IMAGE_NUMBER_5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number4",
+                    "name": "IMAGE_NUMBER_4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number3",
+                    "name": "IMAGE_NUMBER_3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number2",
+                    "name": "IMAGE_NUMBER_2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/number1",
+                    "name": "IMAGE_NUMBER_1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk"
+        ],
+        "uuid": "5fffef86-a8ea-452f-a2f4-a7ac83194ca7",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
