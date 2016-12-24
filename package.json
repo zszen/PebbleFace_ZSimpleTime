@@ -1,21 +1,97 @@
 {
     "author": "ZStudio",
-    "dependencies": {},
+    "dependencies": {
+        "pebble-clay": "^1.0.0"
+    },
     "keywords": [],
     "name": "zst",
     "pebble": {
         "capabilities": [
-            ""
+            "configurable"
         ],
         "displayName": "ZSimpleTime",
         "enableMultiJS": true,
-        "messageKeys": [],
+        "messageKeys": [
+            "TYPE",
+            "CONFIG_isHighConstract",
+            "CONFIG_duringTime",
+            "CONFIG_isColorful",
+            "NaN",
+            "message_keys",
+            "CONFIG_isAnimationTurning"
+        ],
         "projectType": "native",
         "resources": {
             "media": [
                 {
-                    "file": "images/icon",
+                    "file": "images/black9",
+                    "name": "IMAGE_BLACK9",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black8",
+                    "name": "IMAGE_BLACK8",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black7",
+                    "name": "IMAGE_BLACK7",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black6",
+                    "name": "IMAGE_BLACK6",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black5",
+                    "name": "IMAGE_BLACK5",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black4",
+                    "name": "IMAGE_BLACK4",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black3",
+                    "name": "IMAGE_BLACK3",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black2",
+                    "name": "IMAGE_BLACK2",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black1",
+                    "name": "IMAGE_BLACK1",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/black0",
+                    "name": "IMAGE_BLACK0",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon_small",
                     "menuIcon": true,
+                    "name": "IMAGE_ICON_SMALL",
+                    "targetPlatforms": null,
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/icon",
                     "name": "IAMGE_ICON",
                     "targetPlatforms": null,
                     "type": "bitmap"
@@ -86,12 +162,14 @@
         "targetPlatforms": [
             "aplite",
             "basalt",
-            "chalk"
+            "chalk",
+            "diorite",
+            "emery"
         ],
         "uuid": "5fffef86-a8ea-452f-a2f4-a7ac83194ca7",
         "watchapp": {
             "watchface": true
         }
     },
-    "version": "1.0.0"
+    "version": "4.6.0"
 }
